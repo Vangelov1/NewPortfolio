@@ -71,6 +71,8 @@ body {
 	position: relative;
 	z-index: 1;
 }
+
+
 .ml-mask {
   position: absolute;
   top: -10%;
