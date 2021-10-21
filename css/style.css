@@ -738,6 +738,11 @@ blockquote p {
     font-size: 24px;
 }
 
+.customtext{ 
+	font-weight: 600;
+	margin-bottom: 15px;
+}
+
 .flexcontainer{
 	text-align: left ;
 	display: flex;
