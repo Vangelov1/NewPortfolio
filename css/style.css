@@ -102,6 +102,11 @@ p {
 	font-weight: 400;
     color: #fff;
 }
+
+.pbold {
+	font-size: 24px;
+};
+
 blockquote {
 	float: left;
 	padding: 10px 20px;
@@ -1764,9 +1769,38 @@ blockquote p {
 	font-weight: 600;
 	padding-bottom: 20px;
 }
+
+.bolde-title {
+	text-align: left;
+	font-size: 18px;
+	font-weight: 600;
+	padding-bottom: 20px;
+}
+
+.flexer {
+	display: flex;
+	align-items: center;
+}
+
+.sized{
+	max-width: 90%;
+}
+
+.right-side {
+	max-width: 50%;
+}
+.left-side {
+	max-width: 50%;
+	padding-right: 30px;
+}
+
+.simple-title {
+	font-size: 24px;
+}
+
 .single-post-container p{
 	text-align: left;
-	font-size: 13px;
+	
 }
 .single-post_title {
 	margin-bottom: 50px;
