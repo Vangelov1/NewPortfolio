@@ -143,6 +143,17 @@ blockquote p {
 	width: 100%;
 	position: relative;
 }
+.fl-wrap3 {
+	float: left;
+	width: 100%;
+	position: relative;
+	display: none;
+}
+.fl-wrap2 {
+	float: left;
+	width: 100%;
+	position: relative;
+}
 .full-height {
 	height:100%;
 }
@@ -2724,6 +2735,41 @@ blockquote p {
 }
 }
 @media only screen and (max-width: 564px) {
+
+	.right-side {
+		max-width: 100%;
+		text-align: center;
+	}
+	.left-side {
+		max-width: 100%;
+		text-align: center;
+	}
+
+	.fl-wrap3 {
+		float: left;
+		width: 100%;
+		position: relative;
+		display: block;
+	}
+
+	.fl-wrap2 {
+		float: left;
+		width: 100%;
+		position: relative;
+		display: none;
+	}
+	
+
+	.flexer {
+		display: flex;
+		align-items: center;
+		flex-flow: column;
+		max-width: 100%;
+		width: 100%;
+		text-align: center;
+	}
+
+
 .container , .gallery-item   .client-list li {
      width:100%;  
 }
