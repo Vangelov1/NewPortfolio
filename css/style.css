@@ -1799,8 +1799,18 @@ blockquote p {
 
 .right-side {
 	max-width: 50%;
+	padding-left: 100px;
 }
 .left-side {
+	max-width: 50%;
+	padding-right: 30px;
+}
+
+.right-side2 {
+	max-width: 50%;
+	padding-left: 100px;
+}
+.left-side2 {
 	max-width: 50%;
 	padding-right: 30px;
 }
